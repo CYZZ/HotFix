@@ -1,0 +1,1140 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C833C97FD56EC79AF794ABD /* libPods-MyUNSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A157E01459112CF44DB14 /* libPods-MyUNSDK.a */; };
+		5F126FD42304F72800511F27 /* MyPay.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F126FD22304F72800511F27 /* MyPay.h */; };
+		5F126FD52304F72800511F27 /* MyPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F126FD32304F72800511F27 /* MyPay.m */; };
+		5F12702923054B4B00511F27 /* JPLocker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F126FD723054B4A00511F27 /* JPLocker.h */; };
+		5F12702A23054B4B00511F27 /* JPCleaner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F126FD823054B4A00511F27 /* JPCleaner.m */; };
+		5F12702B23054B4B00511F27 /* JPMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F126FDA23054B4A00511F27 /* JPMemory.h */; };
+		5F12702C23054B4B00511F27 /* JPCFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F126FDB23054B4A00511F27 /* JPCFunction.h */; };
+		5F12702D23054B4B00511F27 /* JPStructPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F126FDC23054B4A00511F27 /* JPStructPointer.m */; };
+		5F12702E23054B4B00511F27 /* JPMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F126FDD23054B4A00511F27 /* JPMemory.m */; };
+		5F12702F23054B4B00511F27 /* JPCFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F126FDE23054B4A00511F27 /* JPCFunction.m */; };
+		5F12703023054B4B00511F27 /* JPStructPointer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F126FDF23054B4A00511F27 /* JPStructPointer.h */; };
+		5F12703123054B4B00511F27 /* JPDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F126FE023054B4A00511F27 /* JPDispatch.h */; };
+		5F12703223054B4B00511F27 /* JPCGGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F126FE323054B4A00511F27 /* JPCGGeometry.h */; };
+		5F12703323054B4B00511F27 /* JPCoreGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F126FE423054B4A00511F27 /* JPCoreGraphics.h */; };
+		5F12703423054B4B00511F27 /* JPCGBitmapContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F126FE523054B4A00511F27 /* JPCGBitmapContext.h */; };
+		5F12703523054B4B00511F27 /* JPCGTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F126FE623054B4A00511F27 /* JPCGTransform.h */; };
+		5F12703623054B4B00511F27 /* JPCGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F126FE723054B4A00511F27 /* JPCGImage.h */; };
+		5F12703723054B4B00511F27 /* JPCGColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F126FE823054B4B00511F27 /* JPCGColor.m */; };
+		5F12703823054B4B00511F27 /* JPCGContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F126FE923054B4B00511F27 /* JPCGContext.h */; };
+		5F12703923054B4B00511F27 /* JPCGPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F126FEA23054B4B00511F27 /* JPCGPath.m */; };
+		5F12703A23054B4B00511F27 /* JPCGBitmapContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F126FEB23054B4B00511F27 /* JPCGBitmapContext.m */; };
+		5F12703B23054B4B00511F27 /* JPCoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F126FEC23054B4B00511F27 /* JPCoreGraphics.m */; };
+		5F12703C23054B4B00511F27 /* JPCGGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F126FED23054B4B00511F27 /* JPCGGeometry.m */; };
+		5F12703D23054B4B00511F27 /* JPCGTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F126FEE23054B4B00511F27 /* JPCGTransform.m */; };
+		5F12703E23054B4B00511F27 /* JPCGColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F126FEF23054B4B00511F27 /* JPCGColor.h */; };
+		5F12703F23054B4B00511F27 /* JPCGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F126FF023054B4B00511F27 /* JPCGImage.m */; };
+		5F12704023054B4B00511F27 /* JPCGPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F126FF123054B4B00511F27 /* JPCGPath.h */; };
+		5F12704123054B4B00511F27 /* JPCGContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F126FF223054B4B00511F27 /* JPCGContext.m */; };
+		5F12704223054B4B00511F27 /* JPUIImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F126FF423054B4B00511F27 /* JPUIImage.h */; };
+		5F12704323054B4B00511F27 /* JPUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F126FF523054B4B00511F27 /* JPUIKit.h */; };
+		5F12704423054B4B00511F27 /* JPUIGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F126FF623054B4B00511F27 /* JPUIGraphics.m */; };
+		5F12704523054B4B00511F27 /* JPUIGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F126FF723054B4B00511F27 /* JPUIGeometry.m */; };
+		5F12704623054B4B00511F27 /* JPUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F126FF823054B4B00511F27 /* JPUIImage.m */; };
+		5F12704723054B4B00511F27 /* JPUIGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F126FF923054B4B00511F27 /* JPUIGraphics.h */; };
+		5F12704823054B4B00511F27 /* JPUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F126FFA23054B4B00511F27 /* JPUIKit.m */; };
+		5F12704923054B4B00511F27 /* JPUIGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F126FFB23054B4B00511F27 /* JPUIGeometry.h */; };
+		5F12704A23054B4B00511F27 /* JPDevTipView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F126FFE23054B4B00511F27 /* JPDevTipView.h */; };
+		5F12704B23054B4B00511F27 /* JPDevErrorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F126FFF23054B4B00511F27 /* JPDevErrorView.h */; };
+		5F12704C23054B4B00511F27 /* JPDevMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F12700023054B4B00511F27 /* JPDevMenu.m */; };
+		5F12704D23054B4B00511F27 /* JPDevTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F12700123054B4B00511F27 /* JPDevTipView.m */; };
+		5F12704E23054B4B00511F27 /* JPDevErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F12700223054B4B00511F27 /* JPDevErrorView.m */; };
+		5F12704F23054B4B00511F27 /* JPDevMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12700323054B4B00511F27 /* JPDevMenu.h */; };
+		5F12705023054B4B00511F27 /* JPPlayground.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F12700423054B4B00511F27 /* JPPlayground.m */; };
+		5F12705123054B4B00511F27 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5F12700523054B4B00511F27 /* README.md */; };
+		5F12705223054B4B00511F27 /* JPPlayground.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12700623054B4B00511F27 /* JPPlayground.h */; };
+		5F12705323054B4B00511F27 /* SGDirWatchdog.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12700823054B4B00511F27 /* SGDirWatchdog.h */; };
+		5F12705423054B4B00511F27 /* JPKeyCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F12700923054B4B00511F27 /* JPKeyCommands.m */; };
+		5F12705523054B4B00511F27 /* JPKeyCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12700A23054B4B00511F27 /* JPKeyCommands.h */; };
+		5F12705623054B4B00511F27 /* SGDirWatchdog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F12700B23054B4B00511F27 /* SGDirWatchdog.m */; };
+		5F12705723054B4B00511F27 /* JPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F12700C23054B4B00511F27 /* JPProtocol.m */; };
+		5F12705823054B4B00511F27 /* JPSpecialInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F12700D23054B4B00511F27 /* JPSpecialInit.m */; };
+		5F12705923054B4B00511F27 /* JPNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12700E23054B4B00511F27 /* JPNumber.h */; };
+		5F12705A23054B4B00511F27 /* JPMethodSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F12701023054B4B00511F27 /* JPMethodSignature.m */; };
+		5F12705B23054B4B00511F27 /* JPMethodSignature.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12701123054B4B00511F27 /* JPMethodSignature.h */; };
+		5F12705C23054B4B00511F27 /* ffitarget_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12701323054B4B00511F27 /* ffitarget_arm64.h */; };
+		5F12705D23054B4B00511F27 /* ffitarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12701423054B4B00511F27 /* ffitarget.h */; };
+		5F12705E23054B4B00511F27 /* ffi_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12701523054B4B00511F27 /* ffi_arm.h */; };
+		5F12705F23054B4B00511F27 /* ffi_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12701623054B4B00511F27 /* ffi_i386.h */; };
+		5F12706023054B4B00511F27 /* ffitarget_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12701723054B4B00511F27 /* ffitarget_x86_64.h */; };
+		5F12706123054B4B00511F27 /* ffi_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12701823054B4B00511F27 /* ffi_x86_64.h */; };
+		5F12706223054B4B00511F27 /* ffitarget_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12701923054B4B00511F27 /* ffitarget_arm.h */; };
+		5F12706323054B4B00511F27 /* ffitarget_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12701A23054B4B00511F27 /* ffitarget_i386.h */; };
+		5F12706423054B4B00511F27 /* libffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F12701B23054B4B00511F27 /* libffi.a */; };
+		5F12706523054B4B00511F27 /* ffi.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12701C23054B4B00511F27 /* ffi.h */; };
+		5F12706623054B4B00511F27 /* ffi_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12701D23054B4B00511F27 /* ffi_arm64.h */; };
+		5F12706723054B4B00511F27 /* JPLocker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F12701E23054B4B00511F27 /* JPLocker.m */; };
+		5F12706823054B4B00511F27 /* JPCleaner.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12701F23054B4B00511F27 /* JPCleaner.h */; };
+		5F12706923054B4B00511F27 /* JPBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12702123054B4B00511F27 /* JPBlock.h */; };
+		5F12706A23054B4B00511F27 /* JPBlockWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F12702223054B4B00511F27 /* JPBlockWrapper.m */; };
+		5F12706B23054B4B00511F27 /* JPBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F12702323054B4B00511F27 /* JPBlock.m */; };
+		5F12706C23054B4B00511F27 /* JPBlockWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12702423054B4B00511F27 /* JPBlockWrapper.h */; };
+		5F12706D23054B4B00511F27 /* JPDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F12702523054B4B00511F27 /* JPDispatch.m */; };
+		5F12706E23054B4B00511F27 /* JPSpecialInit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12702623054B4B00511F27 /* JPSpecialInit.h */; };
+		5F12706F23054B4B00511F27 /* JPNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F12702723054B4B00511F27 /* JPNumber.m */; };
+		5F12707023054B4B00511F27 /* JPProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12702823054B4B00511F27 /* JPProtocol.h */; };
+		5F148EB32300FE3C00F91EFB /* MyUNSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F148EB12300FE3C00F91EFB /* MyUNSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F148EB42300FE3C00F91EFB /* MyUNSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F148EB22300FE3C00F91EFB /* MyUNSDK.m */; };
+		5F148EB82301006E00F91EFB /* MyFirstVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F148EB52301006E00F91EFB /* MyFirstVC.h */; };
+		5F148EB92301006E00F91EFB /* MyFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F148EB62301006E00F91EFB /* MyFirstVC.m */; };
+		5F148ED023010AEA00F91EFB /* PayFix.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F148ECE23010AEA00F91EFB /* PayFix.h */; };
+		5F148ED123010AEA00F91EFB /* PayFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F148ECF23010AEA00F91EFB /* PayFix.m */; };
+		5F148EDA2301589200F91EFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F148ED92301589200F91EFB /* AppDelegate.m */; };
+		5F148EDD2301589200F91EFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F148EDC2301589200F91EFB /* ViewController.m */; };
+		5F148EE02301589200F91EFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F148EDE2301589200F91EFB /* Main.storyboard */; };
+		5F148EE22301589600F91EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F148EE12301589600F91EFB /* Assets.xcassets */; };
+		5F148EE52301589600F91EFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F148EE32301589600F91EFB /* LaunchScreen.storyboard */; };
+		5F148EE82301589600F91EFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F148EE72301589600F91EFB /* main.m */; };
+		5F148EEC230158B700F91EFB /* MyUNSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F148EA62300FE1500F91EFB /* MyUNSDK.framework */; };
+		5F148EED230158B700F91EFB /* MyUNSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5F148EA62300FE1500F91EFB /* MyUNSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5F1E459523025F61005B65E3 /* PayFix.framework in Resources */ = {isa = PBXBuildFile; fileRef = 5F1E459323025F49005B65E3 /* PayFix.framework */; };
+		5F1E459C2302AF02005B65E3 /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1E45992302AF01005B65E3 /* JPEngine.m */; };
+		5F1E459D2302AF02005B65E3 /* JPEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F1E459A2302AF01005B65E3 /* JPEngine.h */; };
+		5F1E459E2302AF02005B65E3 /* JSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F1E459B2302AF01005B65E3 /* JSPatch.js */; };
+		5F1E45A02302B3B4005B65E3 /* unDemo.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F1E459F2302B3B4005B65E3 /* unDemo.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F148EEE230158B700F91EFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F148E9D2300FE1500F91EFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F148EA52300FE1500F91EFB;
+			remoteInfo = MyUNSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5F148EF0230158B700F91EFB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5F148EED230158B700F91EFB /* MyUNSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03E3AC199A8918C2D092A22A /* Pods-MyUNSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyUNSDK.debug.xcconfig"; path = "Target Support Files/Pods-MyUNSDK/Pods-MyUNSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		5F126FD22304F72800511F27 /* MyPay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPay.h; sourceTree = "<group>"; };
+		5F126FD32304F72800511F27 /* MyPay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPay.m; sourceTree = "<group>"; };
+		5F126FD723054B4A00511F27 /* JPLocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLocker.h; sourceTree = "<group>"; };
+		5F126FD823054B4A00511F27 /* JPCleaner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCleaner.m; sourceTree = "<group>"; };
+		5F126FDA23054B4A00511F27 /* JPMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPMemory.h; sourceTree = "<group>"; };
+		5F126FDB23054B4A00511F27 /* JPCFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCFunction.h; sourceTree = "<group>"; };
+		5F126FDC23054B4A00511F27 /* JPStructPointer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPStructPointer.m; sourceTree = "<group>"; };
+		5F126FDD23054B4A00511F27 /* JPMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPMemory.m; sourceTree = "<group>"; };
+		5F126FDE23054B4A00511F27 /* JPCFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCFunction.m; sourceTree = "<group>"; };
+		5F126FDF23054B4A00511F27 /* JPStructPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPStructPointer.h; sourceTree = "<group>"; };
+		5F126FE023054B4A00511F27 /* JPDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPDispatch.h; sourceTree = "<group>"; };
+		5F126FE323054B4A00511F27 /* JPCGGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGGeometry.h; sourceTree = "<group>"; };
+		5F126FE423054B4A00511F27 /* JPCoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCoreGraphics.h; sourceTree = "<group>"; };
+		5F126FE523054B4A00511F27 /* JPCGBitmapContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGBitmapContext.h; sourceTree = "<group>"; };
+		5F126FE623054B4A00511F27 /* JPCGTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGTransform.h; sourceTree = "<group>"; };
+		5F126FE723054B4A00511F27 /* JPCGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGImage.h; sourceTree = "<group>"; };
+		5F126FE823054B4B00511F27 /* JPCGColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGColor.m; sourceTree = "<group>"; };
+		5F126FE923054B4B00511F27 /* JPCGContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGContext.h; sourceTree = "<group>"; };
+		5F126FEA23054B4B00511F27 /* JPCGPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGPath.m; sourceTree = "<group>"; };
+		5F126FEB23054B4B00511F27 /* JPCGBitmapContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGBitmapContext.m; sourceTree = "<group>"; };
+		5F126FEC23054B4B00511F27 /* JPCoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCoreGraphics.m; sourceTree = "<group>"; };
+		5F126FED23054B4B00511F27 /* JPCGGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGGeometry.m; sourceTree = "<group>"; };
+		5F126FEE23054B4B00511F27 /* JPCGTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGTransform.m; sourceTree = "<group>"; };
+		5F126FEF23054B4B00511F27 /* JPCGColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGColor.h; sourceTree = "<group>"; };
+		5F126FF023054B4B00511F27 /* JPCGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGImage.m; sourceTree = "<group>"; };
+		5F126FF123054B4B00511F27 /* JPCGPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGPath.h; sourceTree = "<group>"; };
+		5F126FF223054B4B00511F27 /* JPCGContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGContext.m; sourceTree = "<group>"; };
+		5F126FF423054B4B00511F27 /* JPUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIImage.h; sourceTree = "<group>"; };
+		5F126FF523054B4B00511F27 /* JPUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIKit.h; sourceTree = "<group>"; };
+		5F126FF623054B4B00511F27 /* JPUIGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIGraphics.m; sourceTree = "<group>"; };
+		5F126FF723054B4B00511F27 /* JPUIGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIGeometry.m; sourceTree = "<group>"; };
+		5F126FF823054B4B00511F27 /* JPUIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIImage.m; sourceTree = "<group>"; };
+		5F126FF923054B4B00511F27 /* JPUIGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIGraphics.h; sourceTree = "<group>"; };
+		5F126FFA23054B4B00511F27 /* JPUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIKit.m; sourceTree = "<group>"; };
+		5F126FFB23054B4B00511F27 /* JPUIGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIGeometry.h; sourceTree = "<group>"; };
+		5F126FFE23054B4B00511F27 /* JPDevTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPDevTipView.h; sourceTree = "<group>"; };
+		5F126FFF23054B4B00511F27 /* JPDevErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPDevErrorView.h; sourceTree = "<group>"; };
+		5F12700023054B4B00511F27 /* JPDevMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPDevMenu.m; sourceTree = "<group>"; };
+		5F12700123054B4B00511F27 /* JPDevTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPDevTipView.m; sourceTree = "<group>"; };
+		5F12700223054B4B00511F27 /* JPDevErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPDevErrorView.m; sourceTree = "<group>"; };
+		5F12700323054B4B00511F27 /* JPDevMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPDevMenu.h; sourceTree = "<group>"; };
+		5F12700423054B4B00511F27 /* JPPlayground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPPlayground.m; sourceTree = "<group>"; };
+		5F12700523054B4B00511F27 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5F12700623054B4B00511F27 /* JPPlayground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPPlayground.h; sourceTree = "<group>"; };
+		5F12700823054B4B00511F27 /* SGDirWatchdog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGDirWatchdog.h; sourceTree = "<group>"; };
+		5F12700923054B4B00511F27 /* JPKeyCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPKeyCommands.m; sourceTree = "<group>"; };
+		5F12700A23054B4B00511F27 /* JPKeyCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPKeyCommands.h; sourceTree = "<group>"; };
+		5F12700B23054B4B00511F27 /* SGDirWatchdog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGDirWatchdog.m; sourceTree = "<group>"; };
+		5F12700C23054B4B00511F27 /* JPProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPProtocol.m; sourceTree = "<group>"; };
+		5F12700D23054B4B00511F27 /* JPSpecialInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSpecialInit.m; sourceTree = "<group>"; };
+		5F12700E23054B4B00511F27 /* JPNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNumber.h; sourceTree = "<group>"; };
+		5F12701023054B4B00511F27 /* JPMethodSignature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPMethodSignature.m; sourceTree = "<group>"; };
+		5F12701123054B4B00511F27 /* JPMethodSignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPMethodSignature.h; sourceTree = "<group>"; };
+		5F12701323054B4B00511F27 /* ffitarget_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm64.h; sourceTree = "<group>"; };
+		5F12701423054B4B00511F27 /* ffitarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget.h; sourceTree = "<group>"; };
+		5F12701523054B4B00511F27 /* ffi_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_arm.h; sourceTree = "<group>"; };
+		5F12701623054B4B00511F27 /* ffi_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_i386.h; sourceTree = "<group>"; };
+		5F12701723054B4B00511F27 /* ffitarget_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_x86_64.h; sourceTree = "<group>"; };
+		5F12701823054B4B00511F27 /* ffi_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_x86_64.h; sourceTree = "<group>"; };
+		5F12701923054B4B00511F27 /* ffitarget_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm.h; sourceTree = "<group>"; };
+		5F12701A23054B4B00511F27 /* ffitarget_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_i386.h; sourceTree = "<group>"; };
+		5F12701B23054B4B00511F27 /* libffi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libffi.a; sourceTree = "<group>"; };
+		5F12701C23054B4B00511F27 /* ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
+		5F12701D23054B4B00511F27 /* ffi_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_arm64.h; sourceTree = "<group>"; };
+		5F12701E23054B4B00511F27 /* JPLocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLocker.m; sourceTree = "<group>"; };
+		5F12701F23054B4B00511F27 /* JPCleaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCleaner.h; sourceTree = "<group>"; };
+		5F12702123054B4B00511F27 /* JPBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPBlock.h; sourceTree = "<group>"; };
+		5F12702223054B4B00511F27 /* JPBlockWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPBlockWrapper.m; sourceTree = "<group>"; };
+		5F12702323054B4B00511F27 /* JPBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPBlock.m; sourceTree = "<group>"; };
+		5F12702423054B4B00511F27 /* JPBlockWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPBlockWrapper.h; sourceTree = "<group>"; };
+		5F12702523054B4B00511F27 /* JPDispatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPDispatch.m; sourceTree = "<group>"; };
+		5F12702623054B4B00511F27 /* JPSpecialInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSpecialInit.h; sourceTree = "<group>"; };
+		5F12702723054B4B00511F27 /* JPNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPNumber.m; sourceTree = "<group>"; };
+		5F12702823054B4B00511F27 /* JPProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPProtocol.h; sourceTree = "<group>"; };
+		5F148EA62300FE1500F91EFB /* MyUNSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyUNSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F148EAA2300FE1500F91EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F148EB12300FE3C00F91EFB /* MyUNSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUNSDK.h; sourceTree = "<group>"; };
+		5F148EB22300FE3C00F91EFB /* MyUNSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUNSDK.m; sourceTree = "<group>"; };
+		5F148EB52301006E00F91EFB /* MyFirstVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFirstVC.h; sourceTree = "<group>"; };
+		5F148EB62301006E00F91EFB /* MyFirstVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstVC.m; sourceTree = "<group>"; };
+		5F148EC623010A9600F91EFB /* PayFix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PayFix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F148EC923010A9600F91EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F148ECE23010AEA00F91EFB /* PayFix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayFix.h; sourceTree = "<group>"; };
+		5F148ECF23010AEA00F91EFB /* PayFix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayFix.m; sourceTree = "<group>"; };
+		5F148ED62301589200F91EFB /* MyUNSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyUNSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F148ED82301589200F91EFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F148ED92301589200F91EFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F148EDB2301589200F91EFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F148EDC2301589200F91EFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F148EDF2301589200F91EFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F148EE12301589600F91EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F148EE42301589600F91EFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F148EE62301589600F91EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F148EE72301589600F91EFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F1E459323025F49005B65E3 /* PayFix.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PayFix.framework; sourceTree = "<group>"; };
+		5F1E45992302AF01005B65E3 /* JPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEngine.m; sourceTree = "<group>"; };
+		5F1E459A2302AF01005B65E3 /* JPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEngine.h; sourceTree = "<group>"; };
+		5F1E459B2302AF01005B65E3 /* JSPatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPatch.js; sourceTree = "<group>"; };
+		5F1E459F2302B3B4005B65E3 /* unDemo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = unDemo.js; sourceTree = "<group>"; };
+		A00A157E01459112CF44DB14 /* libPods-MyUNSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyUNSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C74977F439700E86F4ABB8 /* Pods-MyUNSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyUNSDK.release.xcconfig"; path = "Target Support Files/Pods-MyUNSDK/Pods-MyUNSDK.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F148EA32300FE1500F91EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C833C97FD56EC79AF794ABD /* libPods-MyUNSDK.a in Frameworks */,
+				5F12706423054B4B00511F27 /* libffi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F148EC323010A9600F91EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F148ED32301589200F91EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F148EEC230158B700F91EFB /* MyUNSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		368735D55B517F15ED58714E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03E3AC199A8918C2D092A22A /* Pods-MyUNSDK.debug.xcconfig */,
+				B5C74977F439700E86F4ABB8 /* Pods-MyUNSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F126FD623054B4A00511F27 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5F126FD723054B4A00511F27 /* JPLocker.h */,
+				5F12701E23054B4B00511F27 /* JPLocker.m */,
+				5F126FD923054B4A00511F27 /* JPCFunction */,
+				5F126FE023054B4A00511F27 /* JPDispatch.h */,
+				5F12702523054B4B00511F27 /* JPDispatch.m */,
+				5F126FE123054B4A00511F27 /* JPCFunctionBinder */,
+				5F126FFC23054B4B00511F27 /* JPPlaygroundTool */,
+				5F12700F23054B4B00511F27 /* JPLibffi */,
+				5F12701F23054B4B00511F27 /* JPCleaner.h */,
+				5F126FD823054B4A00511F27 /* JPCleaner.m */,
+				5F12702023054B4B00511F27 /* JPBlock */,
+				5F12702623054B4B00511F27 /* JPSpecialInit.h */,
+				5F12700D23054B4B00511F27 /* JPSpecialInit.m */,
+				5F12700E23054B4B00511F27 /* JPNumber.h */,
+				5F12702723054B4B00511F27 /* JPNumber.m */,
+				5F12702823054B4B00511F27 /* JPProtocol.h */,
+				5F12700C23054B4B00511F27 /* JPProtocol.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5F126FD923054B4A00511F27 /* JPCFunction */ = {
+			isa = PBXGroup;
+			children = (
+				5F126FDA23054B4A00511F27 /* JPMemory.h */,
+				5F126FDB23054B4A00511F27 /* JPCFunction.h */,
+				5F126FDC23054B4A00511F27 /* JPStructPointer.m */,
+				5F126FDD23054B4A00511F27 /* JPMemory.m */,
+				5F126FDE23054B4A00511F27 /* JPCFunction.m */,
+				5F126FDF23054B4A00511F27 /* JPStructPointer.h */,
+			);
+			path = JPCFunction;
+			sourceTree = "<group>";
+		};
+		5F126FE123054B4A00511F27 /* JPCFunctionBinder */ = {
+			isa = PBXGroup;
+			children = (
+				5F126FE223054B4A00511F27 /* CoreGraphics */,
+				5F126FF323054B4B00511F27 /* UIKit */,
+			);
+			path = JPCFunctionBinder;
+			sourceTree = "<group>";
+		};
+		5F126FE223054B4A00511F27 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				5F126FE323054B4A00511F27 /* JPCGGeometry.h */,
+				5F126FE423054B4A00511F27 /* JPCoreGraphics.h */,
+				5F126FE523054B4A00511F27 /* JPCGBitmapContext.h */,
+				5F126FE623054B4A00511F27 /* JPCGTransform.h */,
+				5F126FE723054B4A00511F27 /* JPCGImage.h */,
+				5F126FE823054B4B00511F27 /* JPCGColor.m */,
+				5F126FE923054B4B00511F27 /* JPCGContext.h */,
+				5F126FEA23054B4B00511F27 /* JPCGPath.m */,
+				5F126FEB23054B4B00511F27 /* JPCGBitmapContext.m */,
+				5F126FEC23054B4B00511F27 /* JPCoreGraphics.m */,
+				5F126FED23054B4B00511F27 /* JPCGGeometry.m */,
+				5F126FEE23054B4B00511F27 /* JPCGTransform.m */,
+				5F126FEF23054B4B00511F27 /* JPCGColor.h */,
+				5F126FF023054B4B00511F27 /* JPCGImage.m */,
+				5F126FF123054B4B00511F27 /* JPCGPath.h */,
+				5F126FF223054B4B00511F27 /* JPCGContext.m */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		5F126FF323054B4B00511F27 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5F126FF423054B4B00511F27 /* JPUIImage.h */,
+				5F126FF523054B4B00511F27 /* JPUIKit.h */,
+				5F126FF623054B4B00511F27 /* JPUIGraphics.m */,
+				5F126FF723054B4B00511F27 /* JPUIGeometry.m */,
+				5F126FF823054B4B00511F27 /* JPUIImage.m */,
+				5F126FF923054B4B00511F27 /* JPUIGraphics.h */,
+				5F126FFA23054B4B00511F27 /* JPUIKit.m */,
+				5F126FFB23054B4B00511F27 /* JPUIGeometry.h */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		5F126FFC23054B4B00511F27 /* JPPlaygroundTool */ = {
+			isa = PBXGroup;
+			children = (
+				5F126FFD23054B4B00511F27 /* JPPlaygroundView */,
+				5F12700423054B4B00511F27 /* JPPlayground.m */,
+				5F12700523054B4B00511F27 /* README.md */,
+				5F12700623054B4B00511F27 /* JPPlayground.h */,
+				5F12700723054B4B00511F27 /* JPPlaygroundModule */,
+			);
+			path = JPPlaygroundTool;
+			sourceTree = "<group>";
+		};
+		5F126FFD23054B4B00511F27 /* JPPlaygroundView */ = {
+			isa = PBXGroup;
+			children = (
+				5F126FFE23054B4B00511F27 /* JPDevTipView.h */,
+				5F126FFF23054B4B00511F27 /* JPDevErrorView.h */,
+				5F12700023054B4B00511F27 /* JPDevMenu.m */,
+				5F12700123054B4B00511F27 /* JPDevTipView.m */,
+				5F12700223054B4B00511F27 /* JPDevErrorView.m */,
+				5F12700323054B4B00511F27 /* JPDevMenu.h */,
+			);
+			path = JPPlaygroundView;
+			sourceTree = "<group>";
+		};
+		5F12700723054B4B00511F27 /* JPPlaygroundModule */ = {
+			isa = PBXGroup;
+			children = (
+				5F12700823054B4B00511F27 /* SGDirWatchdog.h */,
+				5F12700923054B4B00511F27 /* JPKeyCommands.m */,
+				5F12700A23054B4B00511F27 /* JPKeyCommands.h */,
+				5F12700B23054B4B00511F27 /* SGDirWatchdog.m */,
+			);
+			path = JPPlaygroundModule;
+			sourceTree = "<group>";
+		};
+		5F12700F23054B4B00511F27 /* JPLibffi */ = {
+			isa = PBXGroup;
+			children = (
+				5F12701023054B4B00511F27 /* JPMethodSignature.m */,
+				5F12701123054B4B00511F27 /* JPMethodSignature.h */,
+				5F12701223054B4B00511F27 /* libffi */,
+			);
+			path = JPLibffi;
+			sourceTree = "<group>";
+		};
+		5F12701223054B4B00511F27 /* libffi */ = {
+			isa = PBXGroup;
+			children = (
+				5F12701323054B4B00511F27 /* ffitarget_arm64.h */,
+				5F12701423054B4B00511F27 /* ffitarget.h */,
+				5F12701523054B4B00511F27 /* ffi_arm.h */,
+				5F12701623054B4B00511F27 /* ffi_i386.h */,
+				5F12701723054B4B00511F27 /* ffitarget_x86_64.h */,
+				5F12701823054B4B00511F27 /* ffi_x86_64.h */,
+				5F12701923054B4B00511F27 /* ffitarget_arm.h */,
+				5F12701A23054B4B00511F27 /* ffitarget_i386.h */,
+				5F12701B23054B4B00511F27 /* libffi.a */,
+				5F12701C23054B4B00511F27 /* ffi.h */,
+				5F12701D23054B4B00511F27 /* ffi_arm64.h */,
+			);
+			path = libffi;
+			sourceTree = "<group>";
+		};
+		5F12702023054B4B00511F27 /* JPBlock */ = {
+			isa = PBXGroup;
+			children = (
+				5F12702123054B4B00511F27 /* JPBlock.h */,
+				5F12702223054B4B00511F27 /* JPBlockWrapper.m */,
+				5F12702323054B4B00511F27 /* JPBlock.m */,
+				5F12702423054B4B00511F27 /* JPBlockWrapper.h */,
+			);
+			path = JPBlock;
+			sourceTree = "<group>";
+		};
+		5F148E9C2300FE1500F91EFB = {
+			isa = PBXGroup;
+			children = (
+				5F148EA82300FE1500F91EFB /* MyUNSDK */,
+				5F148EC723010A9600F91EFB /* PayFix */,
+				5F148ED72301589200F91EFB /* MyUNSDKDemo */,
+				5F148EA72300FE1500F91EFB /* Products */,
+				368735D55B517F15ED58714E /* Pods */,
+				6F78BB6C7DED2B0E4B14689E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F148EA72300FE1500F91EFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F148EA62300FE1500F91EFB /* MyUNSDK.framework */,
+				5F148EC623010A9600F91EFB /* PayFix.framework */,
+				5F148ED62301589200F91EFB /* MyUNSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F148EA82300FE1500F91EFB /* MyUNSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5F148EAA2300FE1500F91EFB /* Info.plist */,
+				5F148EB12300FE3C00F91EFB /* MyUNSDK.h */,
+				5F148EB22300FE3C00F91EFB /* MyUNSDK.m */,
+				5F148EB52301006E00F91EFB /* MyFirstVC.h */,
+				5F148EB62301006E00F91EFB /* MyFirstVC.m */,
+				5F126FD22304F72800511F27 /* MyPay.h */,
+				5F126FD32304F72800511F27 /* MyPay.m */,
+				5F126FD623054B4A00511F27 /* Extensions */,
+				5F1E45982302AF01005B65E3 /* JSPatch */,
+			);
+			path = MyUNSDK;
+			sourceTree = "<group>";
+		};
+		5F148EC723010A9600F91EFB /* PayFix */ = {
+			isa = PBXGroup;
+			children = (
+				5F148ECE23010AEA00F91EFB /* PayFix.h */,
+				5F148ECF23010AEA00F91EFB /* PayFix.m */,
+				5F148EC923010A9600F91EFB /* Info.plist */,
+			);
+			path = PayFix;
+			sourceTree = "<group>";
+		};
+		5F148ED72301589200F91EFB /* MyUNSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5F148ED82301589200F91EFB /* AppDelegate.h */,
+				5F148ED92301589200F91EFB /* AppDelegate.m */,
+				5F148EDB2301589200F91EFB /* ViewController.h */,
+				5F148EDC2301589200F91EFB /* ViewController.m */,
+				5F1E459F2302B3B4005B65E3 /* unDemo.js */,
+				5F148EDE2301589200F91EFB /* Main.storyboard */,
+				5F1E459323025F49005B65E3 /* PayFix.framework */,
+				5F148EE12301589600F91EFB /* Assets.xcassets */,
+				5F148EE32301589600F91EFB /* LaunchScreen.storyboard */,
+				5F148EE62301589600F91EFB /* Info.plist */,
+				5F148EE72301589600F91EFB /* main.m */,
+			);
+			path = MyUNSDKDemo;
+			sourceTree = "<group>";
+		};
+		5F1E45982302AF01005B65E3 /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				5F1E459A2302AF01005B65E3 /* JPEngine.h */,
+				5F1E45992302AF01005B65E3 /* JPEngine.m */,
+				5F1E459B2302AF01005B65E3 /* JSPatch.js */,
+			);
+			path = JSPatch;
+			sourceTree = "<group>";
+		};
+		6F78BB6C7DED2B0E4B14689E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A00A157E01459112CF44DB14 /* libPods-MyUNSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5F148EA12300FE1500F91EFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F12703323054B4B00511F27 /* JPCoreGraphics.h in Headers */,
+				5F12703223054B4B00511F27 /* JPCGGeometry.h in Headers */,
+				5F12702C23054B4B00511F27 /* JPCFunction.h in Headers */,
+				5F12703423054B4B00511F27 /* JPCGBitmapContext.h in Headers */,
+				5F12703E23054B4B00511F27 /* JPCGColor.h in Headers */,
+				5F12703123054B4B00511F27 /* JPDispatch.h in Headers */,
+				5F12703523054B4B00511F27 /* JPCGTransform.h in Headers */,
+				5F12706623054B4B00511F27 /* ffi_arm64.h in Headers */,
+				5F12706C23054B4B00511F27 /* JPBlockWrapper.h in Headers */,
+				5F12704923054B4B00511F27 /* JPUIGeometry.h in Headers */,
+				5F12707023054B4B00511F27 /* JPProtocol.h in Headers */,
+				5F12706223054B4B00511F27 /* ffitarget_arm.h in Headers */,
+				5F12706123054B4B00511F27 /* ffi_x86_64.h in Headers */,
+				5F12706023054B4B00511F27 /* ffitarget_x86_64.h in Headers */,
+				5F12702923054B4B00511F27 /* JPLocker.h in Headers */,
+				5F148EB32300FE3C00F91EFB /* MyUNSDK.h in Headers */,
+				5F12704023054B4B00511F27 /* JPCGPath.h in Headers */,
+				5F12705B23054B4B00511F27 /* JPMethodSignature.h in Headers */,
+				5F12704223054B4B00511F27 /* JPUIImage.h in Headers */,
+				5F12705223054B4B00511F27 /* JPPlayground.h in Headers */,
+				5F12706E23054B4B00511F27 /* JPSpecialInit.h in Headers */,
+				5F126FD42304F72800511F27 /* MyPay.h in Headers */,
+				5F12704B23054B4B00511F27 /* JPDevErrorView.h in Headers */,
+				5F12706323054B4B00511F27 /* ffitarget_i386.h in Headers */,
+				5F12705923054B4B00511F27 /* JPNumber.h in Headers */,
+				5F12706923054B4B00511F27 /* JPBlock.h in Headers */,
+				5F12705323054B4B00511F27 /* SGDirWatchdog.h in Headers */,
+				5F12702B23054B4B00511F27 /* JPMemory.h in Headers */,
+				5F12705E23054B4B00511F27 /* ffi_arm.h in Headers */,
+				5F12706523054B4B00511F27 /* ffi.h in Headers */,
+				5F12704F23054B4B00511F27 /* JPDevMenu.h in Headers */,
+				5F148EB82301006E00F91EFB /* MyFirstVC.h in Headers */,
+				5F1E459D2302AF02005B65E3 /* JPEngine.h in Headers */,
+				5F12706823054B4B00511F27 /* JPCleaner.h in Headers */,
+				5F12703623054B4B00511F27 /* JPCGImage.h in Headers */,
+				5F12704323054B4B00511F27 /* JPUIKit.h in Headers */,
+				5F12704723054B4B00511F27 /* JPUIGraphics.h in Headers */,
+				5F12704A23054B4B00511F27 /* JPDevTipView.h in Headers */,
+				5F12705F23054B4B00511F27 /* ffi_i386.h in Headers */,
+				5F12705C23054B4B00511F27 /* ffitarget_arm64.h in Headers */,
+				5F12705D23054B4B00511F27 /* ffitarget.h in Headers */,
+				5F12705523054B4B00511F27 /* JPKeyCommands.h in Headers */,
+				5F12703023054B4B00511F27 /* JPStructPointer.h in Headers */,
+				5F12703823054B4B00511F27 /* JPCGContext.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F148EC123010A9600F91EFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F148ED023010AEA00F91EFB /* PayFix.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5F148EA52300FE1500F91EFB /* MyUNSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F148EAE2300FE1500F91EFB /* Build configuration list for PBXNativeTarget "MyUNSDK" */;
+			buildPhases = (
+				21458D3EFDC56B55DC8A904A /* [CP] Check Pods Manifest.lock */,
+				5F148EA12300FE1500F91EFB /* Headers */,
+				5F148EA22300FE1500F91EFB /* Sources */,
+				5F148EA32300FE1500F91EFB /* Frameworks */,
+				5F148EA42300FE1500F91EFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyUNSDK;
+			productName = MyUNSDK;
+			productReference = 5F148EA62300FE1500F91EFB /* MyUNSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F148EC523010A9600F91EFB /* PayFix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F148ECD23010A9600F91EFB /* Build configuration list for PBXNativeTarget "PayFix" */;
+			buildPhases = (
+				5F148EC123010A9600F91EFB /* Headers */,
+				5F148EC223010A9600F91EFB /* Sources */,
+				5F148EC323010A9600F91EFB /* Frameworks */,
+				5F148EC423010A9600F91EFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayFix;
+			productName = PayFix;
+			productReference = 5F148EC623010A9600F91EFB /* PayFix.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F148ED52301589200F91EFB /* MyUNSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F148EEB2301589600F91EFB /* Build configuration list for PBXNativeTarget "MyUNSDKDemo" */;
+			buildPhases = (
+				5F148ED22301589200F91EFB /* Sources */,
+				5F148ED32301589200F91EFB /* Frameworks */,
+				5F148ED42301589200F91EFB /* Resources */,
+				5F148EF0230158B700F91EFB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F148EEF230158B700F91EFB /* PBXTargetDependency */,
+			);
+			name = MyUNSDKDemo;
+			productName = MyUNSDKDemo;
+			productReference = 5F148ED62301589200F91EFB /* MyUNSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F148E9D2300FE1500F91EFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = chiyz;
+				TargetAttributes = {
+					5F148EA52300FE1500F91EFB = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					5F148EC523010A9600F91EFB = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					5F148ED52301589200F91EFB = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 5F148EA02300FE1500F91EFB /* Build configuration list for PBXProject "MyUNSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F148E9C2300FE1500F91EFB;
+			productRefGroup = 5F148EA72300FE1500F91EFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F148EA52300FE1500F91EFB /* MyUNSDK */,
+				5F148EC523010A9600F91EFB /* PayFix */,
+				5F148ED52301589200F91EFB /* MyUNSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F148EA42300FE1500F91EFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F12705123054B4B00511F27 /* README.md in Resources */,
+				5F1E459E2302AF02005B65E3 /* JSPatch.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F148EC423010A9600F91EFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F148ED42301589200F91EFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1E45A02302B3B4005B65E3 /* unDemo.js in Resources */,
+				5F1E459523025F61005B65E3 /* PayFix.framework in Resources */,
+				5F148EE52301589600F91EFB /* LaunchScreen.storyboard in Resources */,
+				5F148EE22301589600F91EFB /* Assets.xcassets in Resources */,
+				5F148EE02301589200F91EFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21458D3EFDC56B55DC8A904A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyUNSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F148EA22300FE1500F91EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1E459C2302AF02005B65E3 /* JPEngine.m in Sources */,
+				5F12705A23054B4B00511F27 /* JPMethodSignature.m in Sources */,
+				5F12705723054B4B00511F27 /* JPProtocol.m in Sources */,
+				5F12704123054B4B00511F27 /* JPCGContext.m in Sources */,
+				5F148EB42300FE3C00F91EFB /* MyUNSDK.m in Sources */,
+				5F12704C23054B4B00511F27 /* JPDevMenu.m in Sources */,
+				5F12703F23054B4B00511F27 /* JPCGImage.m in Sources */,
+				5F12706A23054B4B00511F27 /* JPBlockWrapper.m in Sources */,
+				5F12704823054B4B00511F27 /* JPUIKit.m in Sources */,
+				5F12706B23054B4B00511F27 /* JPBlock.m in Sources */,
+				5F12702D23054B4B00511F27 /* JPStructPointer.m in Sources */,
+				5F12704523054B4B00511F27 /* JPUIGeometry.m in Sources */,
+				5F12705623054B4B00511F27 /* SGDirWatchdog.m in Sources */,
+				5F12703C23054B4B00511F27 /* JPCGGeometry.m in Sources */,
+				5F12703D23054B4B00511F27 /* JPCGTransform.m in Sources */,
+				5F12703B23054B4B00511F27 /* JPCoreGraphics.m in Sources */,
+				5F12705823054B4B00511F27 /* JPSpecialInit.m in Sources */,
+				5F12702F23054B4B00511F27 /* JPCFunction.m in Sources */,
+				5F12706F23054B4B00511F27 /* JPNumber.m in Sources */,
+				5F12703A23054B4B00511F27 /* JPCGBitmapContext.m in Sources */,
+				5F12704423054B4B00511F27 /* JPUIGraphics.m in Sources */,
+				5F12706D23054B4B00511F27 /* JPDispatch.m in Sources */,
+				5F12705423054B4B00511F27 /* JPKeyCommands.m in Sources */,
+				5F126FD52304F72800511F27 /* MyPay.m in Sources */,
+				5F148EB92301006E00F91EFB /* MyFirstVC.m in Sources */,
+				5F12705023054B4B00511F27 /* JPPlayground.m in Sources */,
+				5F12704D23054B4B00511F27 /* JPDevTipView.m in Sources */,
+				5F12704E23054B4B00511F27 /* JPDevErrorView.m in Sources */,
+				5F12703923054B4B00511F27 /* JPCGPath.m in Sources */,
+				5F12706723054B4B00511F27 /* JPLocker.m in Sources */,
+				5F12702A23054B4B00511F27 /* JPCleaner.m in Sources */,
+				5F12702E23054B4B00511F27 /* JPMemory.m in Sources */,
+				5F12703723054B4B00511F27 /* JPCGColor.m in Sources */,
+				5F12704623054B4B00511F27 /* JPUIImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F148EC223010A9600F91EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F148ED123010AEA00F91EFB /* PayFix.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F148ED22301589200F91EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F148EDD2301589200F91EFB /* ViewController.m in Sources */,
+				5F148EE82301589600F91EFB /* main.m in Sources */,
+				5F148EDA2301589200F91EFB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F148EEF230158B700F91EFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F148EA52300FE1500F91EFB /* MyUNSDK */;
+			targetProxy = 5F148EEE230158B700F91EFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F148EDE2301589200F91EFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F148EDF2301589200F91EFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F148EE32301589600F91EFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F148EE42301589600F91EFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F148EAC2300FE1500F91EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F148EAD2300FE1500F91EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F148EAF2300FE1500F91EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E3AC199A8918C2D092A22A /* Pods-MyUNSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BUSLFV36ZF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyUNSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyUNSDK/Extensions/JPLibffi/libffi",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.MyUNSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F148EB02300FE1500F91EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5C74977F439700E86F4ABB8 /* Pods-MyUNSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BUSLFV36ZF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyUNSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyUNSDK/Extensions/JPLibffi/libffi",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.MyUNSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F148ECB23010A9600F91EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BUSLFV36ZF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PayFix/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PayFix;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F148ECC23010A9600F91EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BUSLFV36ZF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PayFix/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PayFix;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F148EE92301589600F91EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = BUSLFV36ZF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyUNSDKDemo",
+				);
+				INFOPLIST_FILE = MyUNSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.MyUNSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = shoude_Dev_0724;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F148EEA2301589600F91EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = BUSLFV36ZF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyUNSDKDemo",
+				);
+				INFOPLIST_FILE = MyUNSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.MyUNSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = shoude_Dev_0724;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F148EA02300FE1500F91EFB /* Build configuration list for PBXProject "MyUNSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F148EAC2300FE1500F91EFB /* Debug */,
+				5F148EAD2300FE1500F91EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F148EAE2300FE1500F91EFB /* Build configuration list for PBXNativeTarget "MyUNSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F148EAF2300FE1500F91EFB /* Debug */,
+				5F148EB02300FE1500F91EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F148ECD23010A9600F91EFB /* Build configuration list for PBXNativeTarget "PayFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F148ECB23010A9600F91EFB /* Debug */,
+				5F148ECC23010A9600F91EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F148EEB2301589600F91EFB /* Build configuration list for PBXNativeTarget "MyUNSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F148EE92301589600F91EFB /* Debug */,
+				5F148EEA2301589600F91EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F148E9D2300FE1500F91EFB /* Project object */;
+}

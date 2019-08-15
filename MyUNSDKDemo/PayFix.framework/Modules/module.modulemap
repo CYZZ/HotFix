@@ -1,0 +1,6 @@
+framework module PayFix {
+  umbrella header "PayFix.h"
+
+  export *
+  module * { export * }
+}
